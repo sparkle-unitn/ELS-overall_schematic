@@ -1568,16 +1568,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 161.29) (xy 22.86 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d8fbc1f-8dd8-49b0-8634-9ea6c2813b74")
-	)
-	(wire
-		(pts
 			(xy 153.67 77.47) (xy 163.83 77.47)
 		)
 		(stroke
@@ -1745,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "3d9ab483-0ce6-4bda-88f7-51286cadd27e")
-	)
-	(wire
-		(pts
-			(xy 33.02 163.83) (xy 22.86 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e10114-990d-4b60-9a46-0c06f786cc34")
 	)
 	(wire
 		(pts
@@ -2055,16 +2035,6 @@
 			(type default)
 		)
 		(uuid "724edfa6-5c80-4812-a00f-25a9cd63ed82")
-	)
-	(wire
-		(pts
-			(xy 33.02 158.75) (xy 22.86 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75bba815-b9ca-4609-abe4-4e43ceaf0ae4")
 	)
 	(wire
 		(pts
@@ -3194,17 +3164,6 @@
 		)
 		(uuid "36c30bc2-64d6-436f-bdff-c918a904e6f9")
 	)
-	(label "ACS_bot"
-		(at 22.86 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a81d42c-c2fc-4193-b7e6-4b0734cad90b")
-	)
 	(label "SDA2"
 		(at 203.2 83.82 180)
 		(fields_autoplaced yes)
@@ -3458,17 +3417,6 @@
 		)
 		(uuid "9815c71c-7106-4871-b780-2b61a1aaf860")
 	)
-	(label "ACS_top"
-		(at 22.86 158.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b6b6163-e240-4d5d-88b7-0c19aca22b3f")
-	)
 	(label "SDA2"
 		(at 203.2 19.05 180)
 		(fields_autoplaced yes)
@@ -3578,17 +3526,6 @@
 			(justify left bottom)
 		)
 		(uuid "c9cecfec-1283-403f-ad49-1a745fdbd492")
-	)
-	(label "ACS_sides"
-		(at 22.86 161.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc0589e5-fd9c-4092-a324-09a70257d345")
 	)
 	(label "ACS_bot"
 		(at 231.14 35.56 0)
@@ -5989,36 +5926,6 @@
 				(justify right)
 			)
 			(uuid "1728fc20-a3b5-444d-9690-9384d41ef5bf")
-		)
-		(pin "ACS_bot" input
-			(at 33.02 163.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "39b12703-5876-440b-89eb-1c6348c51782")
-		)
-		(pin "ACS_sides" input
-			(at 33.02 161.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "18c90d7e-d741-4813-aad6-a0338c92fb57")
-		)
-		(pin "ACS_top" input
-			(at 33.02 158.75 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "203e51f6-3ed6-455c-9ea3-65d0cd6bae65")
 		)
 		(pin "SPI1_CS4" output
 			(at 87.63 135.89 0)

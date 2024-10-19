@@ -3510,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 160.02) (xy 95.25 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddf5406-6de1-4824-8c12-4252578a1dc0")
+	)
+	(wire
+		(pts
 			(xy 60.96 113.03) (xy 60.96 116.84)
 		)
 		(stroke
@@ -3537,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "3f31b9c2-b910-4a5f-b189-b69fe71ef26d")
+	)
+	(wire
+		(pts
+			(xy 81.28 157.48) (xy 95.25 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412b635d-2eea-42ff-9c12-34ebeecf155d")
 	)
 	(wire
 		(pts
@@ -3637,6 +3657,16 @@
 			(type default)
 		)
 		(uuid "53f1c71c-d996-492a-84af-0963e3beadb4")
+	)
+	(wire
+		(pts
+			(xy 81.28 162.56) (xy 95.25 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546c0df0-e7d0-456c-9b0c-f9a56e51ef93")
 	)
 	(wire
 		(pts
@@ -3997,6 +4027,16 @@
 			(type default)
 		)
 		(uuid "a548a3cd-8577-41b0-8b2f-7dd8ea41b876")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 95.25 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e856ec-c0b9-4171-80e1-fd7a70b3adbe")
 	)
 	(wire
 		(pts
@@ -5098,6 +5138,18 @@
 		)
 		(uuid "6b55c127-adc2-4e63-b00f-2927f4854974")
 	)
+	(hierarchical_label "INT-B1"
+		(shape input)
+		(at 81.28 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7719dcaf-c618-4c7f-acb2-7b73cddaa67d")
+	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
 		(at 87.63 111.76 180)
@@ -5133,6 +5185,18 @@
 			(justify right)
 		)
 		(uuid "a01065e5-510d-4a35-8d4a-00864d215797")
+	)
+	(hierarchical_label "INT-A1"
+		(shape input)
+		(at 81.28 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a3ce00e5-a4ca-4c60-8c04-d882dec2aff1")
 	)
 	(hierarchical_label "USART1_RX"
 		(shape input)
@@ -5194,6 +5258,18 @@
 		)
 		(uuid "ce3e7712-5879-4a4a-b0a2-98d7dc1a1b8a")
 	)
+	(hierarchical_label "INT-B2"
+		(shape input)
+		(at 81.28 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de035043-c90a-4cea-9cc4-f8effaa79df6")
+	)
 	(hierarchical_label "ACS_sides"
 		(shape input)
 		(at 109.22 96.52 180)
@@ -5217,6 +5293,18 @@
 			(justify right)
 		)
 		(uuid "f1e401cc-4c86-4b65-82fb-dad23f2eadb0")
+	)
+	(hierarchical_label "INTA-A2"
+		(shape input)
+		(at 81.28 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc51e9cc-3928-4653-b274-2dc576c7540c")
 	)
 	(symbol
 		(lib_id "Device:R")
