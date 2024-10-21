@@ -3608,17 +3608,17 @@
 		(uuid "fc0d5704-4a8c-4fae-a0cc-48e125c66ccd")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 113.03 0)
+		(lib_id "power:GNDA")
+		(at 180.34 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "06a3b9b5-6de8-471f-8a23-b4f363a12a34")
-		(property "Reference" "#PWR0254"
-			(at 222.25 119.38 0)
+		(uuid "0e9bb6a0-67b1-4467-be1d-1f89140e8a22")
+		(property "Reference" "#PWR089"
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,8 +3626,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 118.11 0)
+		(property "Value" "GNDA"
+			(at 180.34 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 113.03 0)
+			(at 180.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 113.03 0)
+			(at 180.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,8 +3652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 113.03 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 180.34 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,48 +3662,48 @@
 			)
 		)
 		(pin "1"
-			(uuid "483613e7-8f74-4b70-9d1f-480aa9c91ce0")
+			(uuid "fadc9c9e-77f1-4b03-bb41-e64668005bb6")
 		)
 		(instances
 			(project "ELS-overall_schematic"
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/d3a0867b-7f84-46bf-9361-c8332e0a72ce/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
-					(reference "#PWR0254")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/0dd55897-f8e3-4770-89d7-91420b06723e/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
-					(reference "#PWR0211")
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/d22b0e08-633e-493f-9bd4-9b4c67b7f3ef/af23f343-4e99-4a64-973d-f023188605ba"
-					(reference "#PWR0145")
+					(reference "#PWR0147")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/0dd55897-f8e3-4770-89d7-91420b06723e/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/d3a0867b-7f84-46bf-9361-c8332e0a72ce/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
+					(reference "#PWR0256")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f8f0c589-11a5-4db8-b5c4-6be32edf6c46/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0282")
+					(reference "#PWR0284")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/b5b3bfef-68a1-476c-8b6f-a490a8658f90/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0300")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/4fdc331a-75ce-4262-9cfc-9a8cfb6b8596/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0318")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/1c386e69-e8bf-45b8-a968-6d2e6af3faba/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0336")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/e750316a-22e9-4869-a00e-e6fa797005c3/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0354")
+					(reference "#PWR0356")
 					(unit 1)
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f09300f7-a488-463c-bc4b-e8ea4169161d/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0372")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
-					(reference "#PWR087")
+					(reference "#PWR0374")
 					(unit 1)
 				)
 			)
@@ -4323,108 +4323,6 @@
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
 					(reference "C29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 180.34 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32a8c919-35c6-40c4-99ac-e7ed9790b1af")
-		(property "Reference" "#PWR0256"
-			(at 180.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ff77a65-1e74-4006-834b-14d18e6376b1")
-		)
-		(instances
-			(project "ELS-overall_schematic"
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/d3a0867b-7f84-46bf-9361-c8332e0a72ce/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
-					(reference "#PWR0256")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/0dd55897-f8e3-4770-89d7-91420b06723e/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
-					(reference "#PWR0213")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/d22b0e08-633e-493f-9bd4-9b4c67b7f3ef/af23f343-4e99-4a64-973d-f023188605ba"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f8f0c589-11a5-4db8-b5c4-6be32edf6c46/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0284")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/b5b3bfef-68a1-476c-8b6f-a490a8658f90/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/4fdc331a-75ce-4262-9cfc-9a8cfb6b8596/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0320")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/1c386e69-e8bf-45b8-a968-6d2e6af3faba/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0338")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/e750316a-22e9-4869-a00e-e6fa797005c3/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0356")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f09300f7-a488-463c-bc4b-e8ea4169161d/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
-					(reference "#PWR0374")
-					(unit 1)
-				)
-				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6046,6 +5944,108 @@
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 222.25 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4591e7f-131d-4729-a02e-4b71a399d34a")
+		(property "Reference" "#PWR087"
+			(at 222.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 222.25 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 222.25 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6335f2f2-b815-4595-b733-c439426fc245")
+		)
+		(instances
+			(project "ELS-overall_schematic"
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/f60c3e2a-43d6-4058-8472-4d5431d35208/af23f343-4e99-4a64-973d-f023188605ba"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/d22b0e08-633e-493f-9bd4-9b4c67b7f3ef/af23f343-4e99-4a64-973d-f023188605ba"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/0dd55897-f8e3-4770-89d7-91420b06723e/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/d3a0867b-7f84-46bf-9361-c8332e0a72ce/c2f07ede-3886-41f3-a8b4-697a2b67a13a"
+					(reference "#PWR0254")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f8f0c589-11a5-4db8-b5c4-6be32edf6c46/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0282")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/b5b3bfef-68a1-476c-8b6f-a490a8658f90/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0300")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/4fdc331a-75ce-4262-9cfc-9a8cfb6b8596/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/1c386e69-e8bf-45b8-a968-6d2e6af3faba/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0336")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/e750316a-22e9-4869-a00e-e6fa797005c3/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0354")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/652cdcf4-4a71-425a-8450-8aa5a3d85c62/f09300f7-a488-463c-bc4b-e8ea4169161d/afac170f-b4e2-4b96-a3ab-e264ec74cc99"
+					(reference "#PWR0372")
 					(unit 1)
 				)
 			)
