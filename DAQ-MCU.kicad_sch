@@ -3002,6 +3002,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c6531f-7d0d-438d-a7d4-c25117779ce2")
+	)
+	(wire
+		(pts
 			(xy 30.48 31.75) (xy 43.18 31.75)
 		)
 		(stroke
@@ -3362,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 82.55) (xy 123.19 82.55)
+			(xy 105.41 82.55) (xy 123.19 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3489,6 +3499,16 @@
 			(type default)
 		)
 		(uuid "c449bb6b-9f8e-4d94-93f9-d5fa6c7b7b14")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc607f1-3b54-4a2d-bbdc-843ddc026bc8")
 	)
 	(wire
 		(pts
@@ -4171,6 +4191,18 @@
 		)
 		(uuid "0312d8d1-ac9c-475d-9af9-3713d64a4b02")
 	)
+	(hierarchical_label "DATA_READY"
+		(shape output)
+		(at 105.41 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c435356-bd0a-42d6-a13b-06982968d990")
+	)
 	(hierarchical_label "SPI1_MISO"
 		(shape output)
 		(at 88.9 113.03 180)
@@ -4185,7 +4217,7 @@
 	)
 	(hierarchical_label "SPI1_CS"
 		(shape input)
-		(at 111.76 82.55 180)
+		(at 105.41 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6490,6 +6522,86 @@
 				)
 				(path "/e163ac89-2584-465c-83de-a2d940380c99/3ba2c326-b309-4f85-817b-a64327d92b06"
 					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 85.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f83990dd-f5fe-4133-bc60-d9b582f8e753")
+		(property "Reference" "R164"
+			(at 118.364 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 113.03 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 113.03 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ef3190e-a965-400d-bbe8-bc62c83f35c6")
+		)
+		(pin "1"
+			(uuid "71e8bcc9-cf5f-49e4-ae7f-54739e8b856e")
+		)
+		(instances
+			(project "ELS-overall_schematic"
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/5cd54913-de05-4d24-857a-a5c68b00a6b8"
+					(reference "R164")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/e4b9ffc8-077d-4e5f-a588-3fe86cc1b2b4"
+					(reference "R165")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/55ac26b6-e7af-4ca8-92b1-4cb6fa926089"
+					(reference "R166")
+					(unit 1)
+				)
+				(path "/e163ac89-2584-465c-83de-a2d940380c99/3ba2c326-b309-4f85-817b-a64327d92b06"
+					(reference "R167")
 					(unit 1)
 				)
 			)
